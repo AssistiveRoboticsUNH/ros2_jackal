@@ -1,4 +1,4 @@
-image: map.pgm
+image: /home/ola/smart_home/src/smart-home/external/ros2_jackal/jackal_navigation/maps/map.pgm
 mode: trinary
 resolution: 0.05
 origin: [-3.75, -5.04, 0]
