@@ -44,7 +44,7 @@ def generate_launch_description():
             'maps',
             'map.yaml'))
 
-    param_file_name = 'pioneer.yaml'
+    param_file_name = 'jackal.yaml'
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(

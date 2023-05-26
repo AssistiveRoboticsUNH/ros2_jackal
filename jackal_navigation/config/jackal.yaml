@@ -37,7 +37,7 @@ amcl:
     z_max: 0.05
     z_rand: 0.5
     z_short: 0.05
-    scan_topic: scan_jac
+    scan_topic: scan
     set_initial_pose: true
     initial_pose.x: -6.3539628982543945
     initial_pose.y: -1.9439269304275513
@@ -199,7 +199,7 @@ local_costmap:
         mark_threshold: 0
         observation_sources: scan
         scan:
-          topic: /scan_jac
+          topic: /scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
@@ -229,7 +229,7 @@ global_costmap:
         enabled: True
         observation_sources: scan
         scan:
-          topic: /scan_jac
+          topic: /scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
@@ -340,7 +340,7 @@ slam_toolbox:
     odom_frame: odom
     map_frame: map
     base_frame: base_link
-    scan_topic: /scan_jac
+    scan_topic: /scan
     scan_queue_size: 100
     mode: mapping #localization
 
