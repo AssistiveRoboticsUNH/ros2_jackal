@@ -27,7 +27,7 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    use_rviz = LaunchConfiguration('use_rviz', default='true')
+    use_rviz = LaunchConfiguration('use_rviz', default='False')
     slam = LaunchConfiguration('use_slam', default='False')
 
     # slam = LaunchConfiguration('slam')
@@ -36,7 +36,7 @@ def generate_launch_description():
     #     default_value='False',
     #     description='Whether run a SLAM')
 
-    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='False')
     map_dir = LaunchConfiguration(
         'map',
         default=os.path.join(
