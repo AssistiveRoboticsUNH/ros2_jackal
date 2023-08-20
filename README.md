@@ -2,7 +2,7 @@
 
 to create a new map run
 ```
-roslaunch jackal_navigation generate_map.launch.py
+ros2 launch jackal_navigation generate_map.launch.py
 ```
 
 after the map is done run 
