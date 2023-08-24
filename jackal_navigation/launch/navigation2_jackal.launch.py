@@ -42,7 +42,7 @@ def generate_launch_description():
         default=os.path.join(
             get_package_share_directory('jackal_navigation'),
             'maps',
-            'map.yaml'))
+            'map_hh.yaml'))
 
     param_file_name = 'jackal.yaml'
     param_dir = LaunchConfiguration(
