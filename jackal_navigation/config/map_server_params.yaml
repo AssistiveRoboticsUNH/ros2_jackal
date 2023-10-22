@@ -1,0 +1,6 @@
+map_server:
+  ros__parameters:
+    frame_id: map
+    topic_name: map
+    use_sim_time: false
+    yaml_filename: "/home/olagh/smart-home/src/smart-home/external/ros2_jackal/jackal_navigation/maps/map.yaml"
