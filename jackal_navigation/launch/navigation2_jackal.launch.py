@@ -27,7 +27,7 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    use_rviz = LaunchConfiguration('use_rviz', default='True')
+    use_rviz = LaunchConfiguration('use_rviz', default='False')
     slam = LaunchConfiguration('use_slam', default='False')
 
     # slam = LaunchConfiguration('slam')
