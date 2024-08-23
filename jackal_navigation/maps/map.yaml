@@ -1,4 +1,4 @@
-image: rick_house.pgm
+image: map.pgm
 mode: trinary
 resolution: 0.05
 origin: [-7.58, -4.11, 0]
